@@ -404,9 +404,9 @@ body { scrollbar-width: none; -ms-overflow-style: none; }
 }
 
 #events .sec-pad {
-  padding: clamp(40px, 5vh, 70px) clamp(60px, 6vw, 110px) clamp(40px, 5vh, 70px);
+  padding: clamp(70px, 8vh, 100px) clamp(60px, 6vw, 110px) clamp(40px, 5vh, 60px);
 }
-#events .sec-header { margin-bottom: clamp(20px, 2.5vh, 32px); }
+#events .sec-header { margin-bottom: clamp(22px, 3vh, 36px); }
 
 /* Two-col intro: title left, lede right */
 #events .events-intro {
@@ -561,14 +561,14 @@ body { scrollbar-width: none; -ms-overflow-style: none; }
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding-bottom: clamp(12px, 1.5vh, 16px);
-  border-bottom: 1px solid rgba(201,169,110,0.35);
-  margin-bottom: clamp(8px, 1vh, 14px);
+  padding-bottom: clamp(14px, 1.8vh, 20px);
+  border-bottom: 1px solid rgba(201,169,110,0.40);
+  margin-bottom: 6px;
 }
 .ah-label {
   font-family: 'Manrope', sans-serif;
-  font-size: 10px;
-  letter-spacing: 4px;
+  font-size: 11px;
+  letter-spacing: 4.5px;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--gold);
@@ -576,8 +576,8 @@ body { scrollbar-width: none; -ms-overflow-style: none; }
 .ah-count {
   font-family: 'Fraunces', serif;
   font-style: italic;
-  font-size: 13px;
-  color: rgba(255,255,255,0.5);
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
 }
 
 .agenda-list {
@@ -590,11 +590,11 @@ body { scrollbar-width: none; -ms-overflow-style: none; }
 }
 .agenda-item {
   display: grid;
-  grid-template-columns: 36px 100px 1fr 88px;
-  gap: clamp(14px, 1.5vw, 24px);
+  grid-template-columns: 40px 116px 1fr 96px;
+  gap: clamp(16px, 1.7vw, 28px);
   align-items: center;
-  padding: clamp(7px, 1.05vh, 11px) 0;
-  border-bottom: 1px solid rgba(201,169,110,0.10);
+  padding: clamp(13px, 1.85vh, 20px) 0;
+  border-bottom: 1px solid rgba(201,169,110,0.12);
   position: relative;
   transition: background 0.3s ease, padding-left 0.3s ease;
 }
@@ -610,47 +610,47 @@ body { scrollbar-width: none; -ms-overflow-style: none; }
   font-family: 'Fraunces', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(14px, 1.1vw, 16px);
+  font-size: clamp(16px, 1.3vw, 19px);
   color: var(--gold);
   letter-spacing: 0.5px;
 }
 .ag-when {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
 }
 .ag-mo {
   font-family: 'Manrope', sans-serif;
-  font-size: clamp(11px, 0.9vw, 13px);
+  font-size: clamp(12px, 1.05vw, 14.5px);
   font-weight: 700;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   color: var(--white);
 }
 .ag-yr {
   font-family: 'Fraunces', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 12px;
   color: rgba(255,255,255,0.42);
 }
 .ag-title {
   font-family: 'Fraunces', serif;
   font-weight: 500;
-  font-size: clamp(15px, 1.2vw, 18px);
+  font-size: clamp(17px, 1.4vw, 21px);
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: var(--white);
 }
 .ag-cat {
   font-family: 'Manrope', sans-serif;
-  font-size: 9px;
+  font-size: 9.5px;
   font-weight: 700;
   letter-spacing: 3px;
   color: var(--gold);
   text-transform: uppercase;
   text-align: right;
   border: 1px solid rgba(201,169,110,0.35);
-  padding: 4px 8px;
+  padding: 5px 10px;
   border-radius: 1px;
   justify-self: end;
 }
